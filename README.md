@@ -3,6 +3,8 @@ Bluetooth config files.
 
 ## Setup
 ```shell
-$ sudo rm -r /etc/bluetooth
-$ sudo ln -s /path/to/bluetooth-conf/bluetooth /etc/bluetooth
+cd bluetooth-conf
+sudo rm -r /etc/bluetooth
+sudo ln -s $PWD/bluetooth /etc/bluetooth
+sudo systemctl enable bluetooth
 ```
