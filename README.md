@@ -18,3 +18,7 @@ src/main.c:load_config() Parsing /etc/bluetooth/main.conf failed: Permission den
 ```
 
 And it is highly recommended to make sure that there are no errors or warnings with `journalctl -u bluetooth` every time you change the settings.
+
+## Troubleshooting
+### `Failed to set power on: org.bluez.Error.Busy`
+https://stackoverflow.com/questions/68728478/failed-to-set-power-on-org-bluez-error-blocked-problem
